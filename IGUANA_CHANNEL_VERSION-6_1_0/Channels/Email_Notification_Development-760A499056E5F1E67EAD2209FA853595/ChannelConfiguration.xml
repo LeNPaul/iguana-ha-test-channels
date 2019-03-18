@@ -1,0 +1,16 @@
+<channel
+   name="Email Notification Development"
+   guid="760A499056E5F1E67EAD2209FA853595"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Sandbox-From-KEzAdDgk9qHurI"
+      commit_id="4d0a942e85b4c701e5bb5c2b5c1d51938c0f0059"
+      commit_comment="Milestone"
+      poll_time="10000">
+   </from_mapper>
+</channel>

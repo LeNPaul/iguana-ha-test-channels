@@ -1,6 +1,6 @@
 <channel
-   name="MDA HL7 Filtering 1"
-   guid="1A5E305567F693826F9FA0F08A4D5AB8"
+   name="MDA HL7 Filtering 16"
+   guid="7CF93B23A4EDB5F2118A233F0A0A0D3F"
    description=""
    start_automatically="false"
    logging_level="1"
@@ -9,7 +9,7 @@
       <dequeue_list>
          <dequeue
             source_name="MDA HL7 Listener 1"
-            dequeue_guid="C6145B01956695CF2A35DCAC7252493D"/>
+            dequeue_guid="B8CA6596B9063229A5307F600C520B12"/>
       </dequeue_list>
    </to_channel>
    <from_channel/>
@@ -23,8 +23,8 @@
       scripted_transformation_configuration_name="default"
       error_handling="0"
       use_translator_filter="true"
-      translator_guid="MDA_HL7_Filtering_1-Filter-Hzhu5kndjvMfYt"
-      translator_commit_id="779830d8cbbd3546c0553f43199f1d2c3de6b66d"
-      translator_commit_comment="Import Translators: Import test channel">
+      translator_guid="MDA_HL7_Filtering_16-Filter-cKlACgv8lbWreJ"
+      translator_commit_id="1ddb81748459efc54fef223c41e7936c0955cb7a"
+      translator_commit_comment="Import Translators: asdf">
    </message_filter>
 </channel>

@@ -1,0 +1,18 @@
+<channel
+   name="MDA HL7 Listener 15"
+   guid="B668824E538DA5219008311239B9EE80"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="/home/centos/nfs/iguana-6-1-2/autoack.vmd"
+      port="5345"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="fast"/>
+</channel>

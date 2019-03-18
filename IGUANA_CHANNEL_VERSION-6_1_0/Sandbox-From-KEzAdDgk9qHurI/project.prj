@@ -1,0 +1,16 @@
+{
+    "LocalDependencies": [
+        "config.lua",
+        "iguana_status.lua"
+    ],
+    "LuaDependencies": [
+        "fileUtil"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1552108857",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
