@@ -1,0 +1,21 @@
+{
+    "LocalDependencies": [
+        "ReadMeFirst.lua",
+        "VMD/InBound.vmd",
+        "VMD/OutBound.vmd",
+        "VMD/demo.vmd",
+        "filter/prefix_event_trigger.lua",
+        "xlate/prefix_event_trigger.lua"
+    ],
+    "LuaDependencies": [
+        "mdacc.hl7.construct_msg",
+        "mdacc.hl7.filter_msg"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1552857913",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

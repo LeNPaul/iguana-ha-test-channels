@@ -10,7 +10,7 @@
    <from_llp_listener
       original_vmd_path=""
       ack_vmd_path="/home/centos/nfs/iguana-6-1-2/autoack.vmd"
-      port="5345"
+      port="5347"
       connection_timeout="30"
       unlimited_connection_timeout="false"
       keep_vmd_updated="false"

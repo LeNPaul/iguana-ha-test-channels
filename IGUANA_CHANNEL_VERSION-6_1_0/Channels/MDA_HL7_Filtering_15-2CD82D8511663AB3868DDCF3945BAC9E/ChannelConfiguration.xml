@@ -8,8 +8,8 @@
    <to_channel>
       <dequeue_list>
          <dequeue
-            source_name="MDA HL7 Listener 1"
-            dequeue_guid="336D2CB861A1D2FA7FF1791585338CB7"/>
+            source_name="MDA HL7 Listener 15"
+            dequeue_guid="61510F485821B2711AD621D439C04149"/>
       </dequeue_list>
    </to_channel>
    <from_channel/>

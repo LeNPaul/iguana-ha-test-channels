@@ -28,8 +28,8 @@
       connection_lost_reconnect_interval="10000">
       <dequeue_list>
          <dequeue
-            source_name="MDA HL7 Filtering 1"
-            dequeue_guid="54960C9B43A2469E83904DA9D5D3B71D"/>
+            source_name="MDA HL7 Filtering 2"
+            dequeue_guid="474ED8929079857A2806CBE914B008D5"/>
       </dequeue_list>
    </to_llp_client>
    <from_channel/>
