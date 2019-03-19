@@ -1,0 +1,41 @@
+<channel
+   name="MDA: Message Generator 5"
+   guid="F91441149EB2DC5CC06BA9926D62D7AF"
+   description="This channel generates a random HL7 ADT message every 10 seconds and then sends it via LLP to localhost:5145.&#xD;&#xA;&#xD;&#xA;Once imported, you can change the IP address, port and content of the generated messages to suit your specific needs.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/random-adt-message-generator"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_llp_client
+      remote_host="localhost"
+      remote_port="5349"
+      wait_for_ack="true"
+      ack_timeout="10000"
+      ack_verification_type="0"
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/ack_verify.vmd"
+      original_vmd_path=""
+      keep_vmd_updated="false"
+      retry_on_ack_timeout="true"
+      retry_on_ack_verification_failed="false"
+      unlimited_count_of_retry="false"
+      count_of_retry="5"
+      disconnect_between_retries="true"
+      ack_reconnect_interval="10000"
+      ack_error_handling="1"
+      persistent_connection="true"
+      connection_timeout="10000"
+      unlimited_max_count_of_reconnect="false"
+      max_count_of_reconnect="60"
+      connection_lost_reconnect_interval="10000">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="1D363E13CC0CA1E1E5F1B43DF5A041D8"/>
+      </dequeue_list>
+   </to_llp_client>
+   <from_mapper
+      guid="MDA_Message_Generator_5-From-YXya6GJdSHYoXN"
+      commit_id="a5e64df164ae5ca4362101b8c1747377d62bd88b"
+      commit_comment="Import Translators: asdf"
+      poll_time="1000">
+   </from_mapper>
+</channel>
