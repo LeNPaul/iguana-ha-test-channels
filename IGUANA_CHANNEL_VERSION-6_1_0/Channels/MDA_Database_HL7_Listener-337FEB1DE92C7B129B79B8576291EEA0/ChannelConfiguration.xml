@@ -1,0 +1,26 @@
+<channel
+   name="MDA Database HL7 Listener"
+   guid="337FEB1DE92C7B129B79B8576291EEA0"
+   description="This channel is an LLP listener that accepts incoming HL7 messages and then stores some of the information to a database. The Source component listens for messages on port 5145. The Destination component inserts some of the fields from the message into a SQLite database.&#xD;&#xA;&#xD;&#xA;See http://help.interfaceware.com/v6/hl7-to-database"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Tutorial_HL7_to_Database-To-roRYoIeIk8ZTCu"
+      commit_id="e62425a0455e21743fc6607d895d5f3e5afc8130"
+      commit_comment="Import Translators: Import">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="33E80FC518979C6F8558DEDC4C16A0D6"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/autoack.vmd"
+      port="5145"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="fast"/>
+</channel>
