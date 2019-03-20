@@ -24,7 +24,7 @@
       error_handling="0"
       use_translator_filter="true"
       translator_guid="MDA_HL7_Filtering_2-Filter-Sjjp8cCl2zN8yG"
-      translator_commit_id="5115181fddaafad33e0ee86ad185acd1df6b74da"
-      translator_commit_comment="Import Translators: Import test channels">
+      translator_commit_id="9e43545a649d65a3357d9b38650e91c9045bd369"
+      translator_commit_comment="asdf">
    </message_filter>
 </channel>

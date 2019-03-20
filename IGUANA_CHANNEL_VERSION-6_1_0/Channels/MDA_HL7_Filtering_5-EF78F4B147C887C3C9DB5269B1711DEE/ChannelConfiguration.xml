@@ -14,7 +14,7 @@
    </to_channel>
    <from_channel/>
    <message_filter
-      filter_after_logging="true"
+      filter_after_logging="false"
       log_pre_post_filter_message="true"
       keep_vmd_updated="false"
       original_vmd_path=""
@@ -24,7 +24,7 @@
       error_handling="0"
       use_translator_filter="true"
       translator_guid="MDA_HL7_Filtering_5-Filter-HZc5cZvkhTt74b"
-      translator_commit_id="1d107acb6af956bd33504c141f7a0c2c1be04214"
-      translator_commit_comment="Import Translators: Import test channels.">
+      translator_commit_id="285f94c8bce0cb02bc31a10c31e4f2e771e7810c"
+      translator_commit_comment="asdf">
    </message_filter>
 </channel>
