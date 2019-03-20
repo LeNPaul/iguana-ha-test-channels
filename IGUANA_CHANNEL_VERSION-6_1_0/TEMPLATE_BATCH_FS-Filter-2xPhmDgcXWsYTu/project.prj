@@ -1,0 +1,22 @@
+{
+    "LocalDependencies": [
+        "template_config.lua"
+    ],
+    "LuaDependencies": [
+        "interfaceware.date.parse",
+        "interfaceware.retry",
+        "mdacc.batch.transport.base",
+        "mdacc.batch.transport.module.fs_transport",
+        "mdacc.config",
+        "mdacc.io.file_glob",
+        "mdacc.os.fs.fs_extension",
+        "mdacc.time_util"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1552970704",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

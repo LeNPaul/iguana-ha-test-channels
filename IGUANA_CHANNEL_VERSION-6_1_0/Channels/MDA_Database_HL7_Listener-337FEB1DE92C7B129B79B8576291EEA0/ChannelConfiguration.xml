@@ -7,8 +7,8 @@
    use_message_filter="false">
    <to_mapper
       guid="Tutorial_HL7_to_Database-To-roRYoIeIk8ZTCu"
-      commit_id="e62425a0455e21743fc6607d895d5f3e5afc8130"
-      commit_comment="Import Translators: Import">
+      commit_id="aea4354c8fad8bb77e87e76fe6de531ff9052749"
+      commit_comment="Import Translators: Import source channels.">
       <dequeue_list>
          <dequeue
             source_name="self"

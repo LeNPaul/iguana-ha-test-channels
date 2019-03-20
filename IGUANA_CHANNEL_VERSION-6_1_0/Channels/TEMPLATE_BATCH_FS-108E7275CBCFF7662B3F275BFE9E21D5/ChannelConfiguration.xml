@@ -1,0 +1,30 @@
+<channel
+   name="TEMPLATE_BATCH_FS"
+   guid="108E7275CBCFF7662B3F275BFE9E21D5"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="TEMPLATE_BATCH_FS-From-gmpSTEnReCvkmK"
+      commit_id="367290be5c16e7b0c5855d9de0748cf88aceb1dc"
+      commit_comment="Import initial code from James."
+      poll_time="10000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="TEMPLATE_BATCH_FS-Filter-2xPhmDgcXWsYTu"
+      translator_commit_id="912edd61240b0e5630538652b7e31380aeb31835"
+      translator_commit_comment="Import initial code.">
+   </message_filter>
+</channel>

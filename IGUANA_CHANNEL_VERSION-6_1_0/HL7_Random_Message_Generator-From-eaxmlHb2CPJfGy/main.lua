@@ -10,7 +10,7 @@ function main()
    -- Push the ADT message through to destination
    -- Press 'RandomMessage' on right to navigate
    -- through code
-   for i=1, 1000 do
+   for i=1, 10 do
       queue.push{data=ran.RandomMessage()}
    end
 end

@@ -34,8 +34,8 @@
    </to_llp_client>
    <from_mapper
       guid="MDA_Message_Generator_49-From-gwlugH0jFcaLeo"
-      commit_id="ec985bc338a698b1035edcc8f5002288a9db450e"
-      commit_comment="Import Translators: erw"
+      commit_id="aea4354c8fad8bb77e87e76fe6de531ff9052749"
+      commit_comment="Import Translators: Import source channels."
       poll_time="1000">
    </from_mapper>
 </channel>

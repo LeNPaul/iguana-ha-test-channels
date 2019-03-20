@@ -34,8 +34,8 @@
    </to_llp_client>
    <from_mapper
       guid="HL7_Random_Message_Generator-From-LTlXEkOoKEx7gB"
-      commit_id="924092999d4457a74357fbd0d37809fedad57cc8"
-      commit_comment="Import Translators: asdf"
+      commit_id="05d97872c812618dff196a052d06e66912f95f17"
+      commit_comment="asdf"
       poll_time="1000">
    </from_mapper>
 </channel>

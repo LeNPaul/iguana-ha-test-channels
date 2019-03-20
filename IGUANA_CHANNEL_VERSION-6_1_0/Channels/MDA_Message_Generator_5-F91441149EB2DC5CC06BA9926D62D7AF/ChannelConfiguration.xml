@@ -34,8 +34,8 @@
    </to_llp_client>
    <from_mapper
       guid="MDA_Message_Generator_5-From-YXya6GJdSHYoXN"
-      commit_id="a5e64df164ae5ca4362101b8c1747377d62bd88b"
-      commit_comment="Import Translators: asdf"
+      commit_id="949dc1c13879e514be17db5f1eb736245e8f3ed9"
+      commit_comment="asdf"
       poll_time="1000">
    </from_mapper>
 </channel>

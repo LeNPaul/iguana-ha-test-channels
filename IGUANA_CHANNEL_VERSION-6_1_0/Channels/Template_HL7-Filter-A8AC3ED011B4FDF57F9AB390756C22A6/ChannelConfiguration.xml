@@ -1,0 +1,32 @@
+<channel
+   name="Template_HL7-Filter"
+   guid="A8AC3ED011B4FDF57F9AB390756C22A6"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_channel>
+   </to_channel>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="/Users/paul.le/Documents/iNTERFACEWARE/Iguana/mda-source-iguana/autoack.vmd"
+      port="5395"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="fast"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="Template_HL7-Filter-Filter-FVvkRqlOUMRnAc"
+      translator_commit_id="ed21a5d6fe57b5c35f6d2488f3f0d1b9d14a6c73"
+      translator_commit_comment="Update logic">
+   </message_filter>
+</channel>

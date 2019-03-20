@@ -1,0 +1,24 @@
+{
+    "LocalDependencies": [
+        "ReadMeFirst.lua",
+        "VMD/InBound.vmd",
+        "VMD/OutBound.vmd",
+        "VMD/demo.vmd",
+        "filter/ADT.lua",
+        "filter/prefix_event_trigger.lua",
+        "xlate/ADT.lua",
+        "xlate/prefix_event_trigger.lua"
+    ],
+    "LuaDependencies": [
+        "mdacc.hl7.construct_msg",
+        "mdacc.hl7.filter_msg",
+        "pepperfish"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1553049935",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
